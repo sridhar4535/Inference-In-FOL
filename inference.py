@@ -1,5 +1,5 @@
 def main():
-    textFile = open('input.txt', 'r')
+    textFile = open(sys.argv[2], 'r')
     outputFile = open('output.txt', 'w')
     number_queries = int(textFile.readline())
     queries = []
